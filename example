@@ -1,0 +1,25 @@
+Infrastructure-Specific Examples
+Fibonacci Sequence
+Using the Fibonacci sequence for infrastructure tasks:
+
+1 point:
+Reboot a server
+Apply a small configuration change
+2 points:
+Deploy a virtual machine from a template
+Perform a minor network configuration change (e.g., update a DNS entry)
+3 points:
+Set up monitoring for a new service
+Configure a new VLAN
+5 points:
+Migrate a small set of VMs to a new host
+Install and configure a new storage array
+8 points:
+Implement a backup solution for a new environment
+Upgrade the firmware on multiple network devices
+13 points:
+Design and implement a new disaster recovery strategy
+Set up a new data center location
+20 points:
+Complete data center migration
+Major network redesign affecting multiple sites
