@@ -1,25 +1,29 @@
-Infrastructure-Specific Examples
-Fibonacci Sequence
-Using the Fibonacci sequence for infrastructure tasks:
+Epic Name: Foundation for Microsegmentation
 
-1 point:
-Reboot a server
-Apply a small configuration change
-2 points:
-Deploy a virtual machine from a template
-Perform a minor network configuration change (e.g., update a DNS entry)
-3 points:
-Set up monitoring for a new service
-Configure a new VLAN
-5 points:
-Migrate a small set of VMs to a new host
-Install and configure a new storage array
-8 points:
-Implement a backup solution for a new environment
-Upgrade the firmware on multiple network devices
-13 points:
-Design and implement a new disaster recovery strategy
-Set up a new data center location
-20 points:
-Complete data center migration
-Major network redesign affecting multiple sites
+Epic Description: This epic focuses on establishing the core components and initial testing required for microsegmentation implementation.
+
+Phases included in this Epic:
+
+Macrosegmentation Automation for Testing:
+
+Develop and automate the creation of macrosegmentation within a designated testing tenant.
+This will serve as the initial network isolation for subsequent microsegmentation efforts.
+NSX Application Appliance Deployment:
+
+Deploy the NSX Application appliance to enable NSX Intelligence functionality within the NSX environment.
+This will facilitate the automated generation of microsegmentation rules based on observed network traffic.
+Automated Microsegmentation Rule Testing:
+
+Conduct initial tests on the auto-deployment of microsegmentation rules suggested by NSX Intelligence.
+Evaluate the accuracy and effectiveness of these rules in a controlled environment.
+Manual Microsegmentation and Data Requirements:
+
+Implement manual microsegmentation on a low-impact, existing application within a test tenant.
+Utilize this process to identify and document the minimum product data information requirements necessary for onboarding PCI-compliant applications.
+This information will streamline future microsegmentation efforts for applications with specific compliance needs.
+Expected Outcomes:
+
+A functional macrosegmentation framework in a testing environment.
+NSX Intelligence enabled for automated rule generation.
+Initial insights into the effectiveness of automated microsegmentation rules.
+Clearly defined product data requirements for onboarding PCI-compliant applications into a microsegmented environment.
